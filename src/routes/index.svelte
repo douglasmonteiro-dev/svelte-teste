@@ -19,11 +19,11 @@
 			</picture>
 		</div>
 
-		to your new<br />SvelteKit app
+		a nossa nova<br />Aplicação
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
+		h2 teste <strong>src/routes/index.svelte</strong>
 	</h2>
 
 	<Counter />
@@ -52,7 +52,6 @@
 	.welcome img {
 		position: absolute;
 		width: 100%;
-		height: 100%;
 		top: 0;
 		display: block;
 	}

@@ -15,11 +15,11 @@
 </script>
 
 <svelte:head>
-	<title>Todos</title>
+	<title>Recados</title>
 </svelte:head>
 
 <div class="todos">
-	<h1>Todos</h1>
+	<h1>Deixe seu recado aqui:</h1>
 
 	<form
 		class="new"
@@ -31,7 +31,7 @@
 			}
 		}}
 	>
-		<input name="text" aria-label="Add todo" placeholder="+ tap to add a todo" />
+		<input name="text" aria-label="Add todo" placeholder="+ clique para adicionar seu recado" />
 	</form>
 
 	{#each todos as todo (todo.uid)}
